@@ -91,7 +91,7 @@ def get_weather():
     weather_label = tk.Label(weather_window, text=weather_info, font=(None, 30))
     weather_label.pack(padx=10, pady=2)
 
-    credits = tk.Label(weather_window, text="Icons by Icons8", font=(None, 12))
+    credits = tk.Label(weather_window, text="Icons by Icons8", font=(None, 9))
     credits.pack(padx=10, pady=2)
 
 # Load city coordinates from a CSV file
